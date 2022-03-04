@@ -1,0 +1,569 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    vertical-align: middle;
+}
+.clr{
+    clear: both;
+}
+/*================
+Comand Css End
+==================*/
+.menu-ful-page{
+    width: 100%;
+}
+.menu-full{
+    width: 100%;
+    height: 40px;
+   /* background: #32047e; */
+}
+.menu-full .menu-content{
+    width: 1170px;
+    height: 40px;
+    background: #683091; 
+    margin: 0 auto;
+}
+.menu-full .menu-content .logo{
+    width: 80px;
+    height: 40px;
+   /* background: #fbff0d; */
+    float: left;
+}
+.menu-full .menu-content .logo a img{
+    width: 50px;
+    height: 40px;
+}
+.menu-full .menu-content .menu-text{
+    width: 290px;
+    height: 40px;
+    float: left;
+   /* background: #ec0b0b; */
+}
+.menu-full .menu-content .menu-text a{
+    text-decoration: none;
+}
+.menu-full .menu-content .menu-text a h3{
+    margin: 5px auto;
+    color: white;
+    font-style: inherit;
+}
+.menu-full .menu-content .menu-table{
+    width: 250px;
+    height: 40px;
+   /* background: #1608da; */
+    float: left;
+}
+.menu-full .menu-content .menu-table .select{
+    width: 140px;
+    height: 40px;
+   /* background: #c50df3; */
+    float: left;
+}
+.menu-full .menu-content .menu-table .select select{
+    width: 140px;
+    height: 30px;
+    margin: 5px 0 ;
+}
+.menu-full .menu-content .menu-table .button{
+    width: 60px;
+    height: 40px;
+  /*  background: #41cf09; */
+    float: left;
+}
+.menu-full .menu-content .menu-table .button button{
+    width: 30px;
+    height: 30px;
+    margin: 5px 5px ;
+    background-color: #8bc643;
+}
+.menu-full .menu-content .language{
+    width: 120px;
+    height: 40px;
+   /* background: #180852; */
+    float: right;
+}
+.menu-full .menu-content .language .select select{
+    width: 100px;
+    height: 30px;
+    margin: 5px 5px;
+    background-color: #d140be;
+    color: white;
+}
+.menu-full .menu-content .search{
+    width: 110px;
+    height: 40px;
+  /*  background: #cfcc09; */
+    float: right;
+}
+.menu-full .menu-content .search .button button{
+    width: 100px;
+    height: 30px;
+    margin: 5px 5px;
+    background-color: #67a11f;
+    color: white;
+    text-transform: capitalize;
+}
+.menu-full .menu-content .box{
+    width: 160px;
+    height: 40px;
+   /* background: #1609cf; */
+    float: right;
+}
+.menu-full .menu-content .box input{
+    width: 120px;
+    height: 25px;
+    margin: 5px 30px;
+}
+/*================
+Comand Css End
+==================*/
+.banner-full{
+    width: 100%;
+    height: 300px;
+  /*  background: #000; */
+}
+
+.banner-full .banner-content{
+    width: 1170px;
+    height: 300px;
+    margin: 5px auto;
+}
+.banner-full .banner-content .banner-slider{
+    width: 1170px;
+    height: 300px;
+    margin: 5px auto;
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    animation: slider 9s infinite linear;
+}
+
+@keyframes slider{
+   0%{
+       background-image: url(../images/banner-2.jpg);
+   }
+   25%{
+       background-image: url(../images/banner-3.jpg);
+   }
+   45%{
+       background-image: url(../images/banner-4.jpg);
+   }
+   65%{
+       background-image: url(../images/banner-5.jpg);
+   }
+   85%{
+       background-image: url(../images/banner-6.jpg);
+   }
+   100%{
+       background-image: url(../images/banner-7.jpg);
+   }
+}
+.banner-full .banner-content .banner-side{
+  width: 670px;
+  height: 300px;
+ /* background: green; */
+}
+.banner-full .banner-content .banner-side .logo{
+  width: 80px;
+  height: 60px;
+ /* background: #f50505; */
+  float: left;
+  margin: 110px 60px;
+}
+.banner-full .banner-content .banner-side .logo a img{
+  width: 80px;
+  height: 60px;
+  margin: right;
+}
+.banner-full .banner-content .banner-side .banner-text{
+    width: 300px;
+    height: 40px;
+   /* background: #b2e206; */
+    float: left;
+    margin: 120px 0;
+}
+.banner-full .banner-content .banner-side .banner-text a{
+    text-decoration: none;
+}
+.banner-full .banner-content .banner-side .banner-text a h3{
+    color: #ffffff;
+    font-size: 30px;
+}
+/*================
+Comand menu-full End
+==================*/
+.menu1-full{
+    width: 100%;
+    height: 40px;
+  /*  background: #e22424; */
+}
+.menu1-full .menu1-content{
+    width: 1170px;
+    height: 40px;
+   /* background: #ad7878; */
+    margin: 0 auto;
+}
+.menu1-full .menu1-content .logo01{
+   width: 50px;
+   height: 40px;
+  /* background: #158212; */
+   float: left;
+}
+.menu1-full .menu1-content .logo01 a img{
+    width: 40px;
+    height: 40px;
+}
+.menu1-full .menu1-content .menu1-list{
+    width: 1120px;
+    height: 40px;
+   /* background: #e08207; */
+    float: right;
+}
+.menu1-full .menu1-content .menu1-list ul{
+    list-style: none;
+    padding: 10px;
+}
+.menu1-full .menu1-content .menu1-list ul li{
+    float: left;
+    position: relative;
+}
+.menu1-full .menu1-content .menu1-list ul li a{
+    text-decoration: none;
+    margin: 20px;
+    font-style: inherit;
+ /*   background: #c43737; */
+    color: black;
+    transition: all linear 0.5s;
+}
+.menu1-full .menu1-content .menu1-list ul li ul{
+    position: absolute;
+    top: 150px;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all linear 0.5s;
+}
+.menu1-full .menu1-content .menu1-list ul li:hover > ul{
+    visibility: visible;
+    opacity: 1;
+    top: 30px;
+}
+.menu1-full .menu1-content .menu1-list ul li ul li{
+    float: none;
+}
+.menu1-full .menu1-content .menu1-list ul li ul li a{
+  /*  background-color: #f323b5; */
+    white-space: nowrap;
+    line-height: 30px;
+}
+
+/*================
+Comand menu1-full End
+==================*/
+.step-full{
+    width: 100%;
+    height: 380px;
+  /*  background: black; */
+}
+.step-full .step-content{
+    width: 1170px;
+    height: 380px;
+    background: white;
+    margin: 0 auto;
+}
+.step-full .step-content .step1{
+    width: 800px;
+    height: 300px;
+ /*   background: #258ecb; */
+    margin: 40px 10px; 
+    float: left;
+}
+.step-full .step-content .step1 .step2{
+    width: 800px;
+    height: 40px;
+    background: #61ca25;  
+    float: left;
+}
+.step-full .step-content .step1 .step2 h3{
+    margin: 10px;
+}
+.step-full .step-content .step1 .news{
+    width: 800px;
+    height: 300px;
+    background: #c9c9c9;
+    float: left;
+}
+.step-full .step-content .step1 .news ul{
+    margin: 10px 30px;
+}
+.step-full .step-content .step1 .news ul li{
+    line-height: 40px;
+}
+.step-full .step-content .step1 .news ul li a{
+    text-decoration: none;
+    color: black;
+}
+.step-full .step-content .step3{
+    width: 300px;
+    height: 335px;
+  /*background: #258ecb; */
+    margin: 40px 10px; 
+    float: right;
+}
+.step-full .step-content .step3 .step4{
+    width: 300px;
+    height: 40px;
+    background: #61ca25; 
+    float: right;
+}
+.step-full .step-content .step3 .step4 h3{
+    margin: 10px;
+}
+.step-full .step-content .step3 .step3-img{
+    width: 160px;
+    height: 180px;
+ /* background: #1a6fdf; */
+    margin-left: 60px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.step-full .step-content .step3 .step3-img img{
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.step-full .step-content .step3 .step3-text{
+    width: 300px;
+    height: 100px;
+ /* background: #db0d9d; */
+    line-height: 25px;
+}
+.step-full .step-content .step3 .step3-text h3 a{
+   margin-left: 30px;
+   text-decoration: none;
+}
+.step-full .step-content .step3 .step3-text h4{
+    margin: 10px 100px;
+}
+.step-full .step-content .step3 .step3-text h5{
+    margin: 10px 70px;
+}
+/*================
+Comand menu1-full End
+==================*/
+.ab-full{
+    width: 100%;
+    height: 600px;
+ /*   background: black; */
+}
+.ab-full .ab-content{
+    width: 1170px;
+    height: 600px;
+ /* background: #f89007; */
+    margin: 0 auto;
+}
+.ab-full .ab-content .ab1{
+    width: 820px;
+    height: 600px;
+ /* background: #d80aeb; */
+    float: left;
+}
+.ab-full .ab-content .ab1 .notice{
+    width: 800px;
+    height: 100px;
+ /* background: #e5e90f; */
+    margin-left: 10px;
+    line-height: 50px;
+}
+.ab-full .ab-content .ab1 .pic{
+    width: 800px;
+    height: 420px;
+ /*   background: #0a30db; */
+    margin-top: 5px;
+    margin-left: 10px;
+    background-image: url(../images/image-1.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ab-full .ab-content .ab1 .notices1{
+    width: 800px;
+    height: 80px;
+ /*   background: #d0ff63; */
+    margin-left: 10px;
+    line-height: 80px;
+}
+.ab-full .ab-content .ab2{
+    width: 300px;
+    height: 565px;
+ /* background: #0104ce; */
+    float: left;
+    margin-left: 40px;
+}
+.ab-full .ab-content .ab2 .chip{
+    width: 300px;
+    height: 40px;
+    background: #61ca25;
+}
+.ab-full .ab-content .ab2 .chip h2{
+    margin-left: 10px;
+}
+.ab-full .ab-content .ab2 .img1{
+    width: 230px;
+    height: 250px;
+ /* background: #e70e0e; */
+    margin: 30px 40px 20px;
+    background-image: url(../images/DG-Sir.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.ab-full .ab-content .ab2 .ab2-text{
+    width: 300px;
+    height: 200px;
+ /*   background: #d46b6b; */
+    line-height: 30px;
+}
+.ab-full .ab-content .ab2 .ab2-text h3 a{
+    text-decoration: none;
+    margin-left: 20px;
+}
+.ab-full .ab-content .ab2 .ab2-text h4{
+    margin-left: 130px;
+}
+.ab-full .ab-content .ab2 .ab2-text h5{
+    margin-left: 80px;
+}
+/*================
+Comand ab-full End
+==================*/
+.gerallery-full{
+    width: 100%;
+    height: 500px;
+ /* background: rgb(34, 139, 34); */
+}
+.gerallery-full .gerallery-content{
+    width: 1170px;
+    height: 450px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.gerallery-full .gerallery-content .gerallery-item{
+    width: 370px;
+    height: 450px;
+    float: left;
+    position: relative;
+}
+.gerallery-full .gerallery-content .gerallery-item .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(100, 148, 237, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.gerallery-full .gerallery-content .gerallery-item1{
+    background: orangered;
+    margin-right: 30px;
+}
+.gerallery-full .gerallery-content .gerallery-item1 .overlay{
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.gerallery-full .gerallery-content .gerallery-item1:hover .overlay{
+    opacity: 1;
+}
+.gerallery-full .gerallery-content .gerallery-item1 .overlay h2{
+     margin-top: 170px;
+     margin-left: 120px;
+}
+.gerallery-full .gerallery-content .gerallery-item1 .overlay h3{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.gerallery-full .gerallery-content .gerallery-item2{
+    background: rgb(45, 253, 97);
+    margin-right: 30px;
+    overflow: hidden;
+}
+.gerallery-full .gerallery-content .gerallery-item2 .overlay{
+    left: -100%;
+    transition: all linear 0.4s;
+}
+.gerallery-full .gerallery-content .gerallery-item2:hover .overlay{
+    left: 0;
+}
+.gerallery-full .gerallery-content .gerallery-item2 .overlay h2{
+    margin-top: 170px;
+    margin-left: 120px;
+}
+.gerallery-full .gerallery-content .gerallery-item2 .overlay h3{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.gerallery-full .gerallery-content .gerallery-item3{
+    background: rgb(165, 20, 223);
+    overflow: hidden;
+}
+.gerallery-full .gerallery-content .gerallery-item3 .overlay{
+    height: 0;
+    transition: all linear 0.4s;
+}
+.gerallery-full .gerallery-content .gerallery-item3:hover .overlay{
+    height: 100%;
+}
+.gerallery-full .gerallery-content .gerallery-item3 .overlay h2{
+    margin-top: 170px;
+    margin-left: 120px;
+}
+.gerallery-full .gerallery-content .gerallery-item3 .overlay h3{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.last-full{
+    width: 100%;
+    height: 170px;
+ /* background: #000; */
+}
+.last-full .last-content{
+    width: 1170px;
+    height: 170px;
+    background: white;
+    margin: 0 auto;
+}
+.last-full .last-content .last-img{
+    width: 100%;
+    height: 170px;
+    background-image: url(../images/last.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*================
+Comand ab-full End
+==================*/
+
+.copy-right{
+    width: 100%;
+    height: 40px;
+/*  background-color: #000000; */
+}
+.copy-right .copy-text{
+    width: 1170px;
+    height: 40px;
+    background: dimgray;
+    margin: 0 auto;
+}
+.copy-right .copy-text h1{
+    width: 600px;
+    margin:0 auto;
+}
+/*================
+copyright End
+==================*/
